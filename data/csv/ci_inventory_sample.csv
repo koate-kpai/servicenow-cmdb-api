@@ -1,0 +1,16 @@
+sys_id,name,class,status,operational_status,location,install_status,managed_by,assigned_to,last_discovered,environment
+ci001,DC-APP-001,cmdb_ci_server,Online,Operational,London DC,Installed,john.admin,app.team,2026-07-12 02:00:00,Production
+ci002,DC-DB-001,cmdb_ci_database,Online,Operational,London DC,Installed,dba.team,dba.team,2026-07-12 02:00:00,Production
+ci003,DC-SW-001,cmdb_ci_switch,Online,Operational,London DC,Installed,net.team,net.team,2026-07-12 02:00:00,Production
+ci004,DC-FW-001,cmdb_ci_network_device,Online,Operational,London DC,Installed,sec.team,sec.team,2026-07-12 02:00:00,Production
+ci005,DR-APP-001,cmdb_ci_server,Online,Non-Operational,DR Site,Installed,john.admin,app.team,2026-07-11 02:00:00,Disaster Recovery
+ci006,DC-STOR-001,cmdb_ci_storage_device,Online,Operational,London DC,Installed,infra.team,infra.team,2026-07-12 02:00:00,Production
+ci007,DC-VMW-001,cmdb_ci_vm,Maintenance,Operational,London DC,Installed,virt.team,virt.team,2026-07-10 08:30:00,Production
+ci008,OFF-EXCH-001,cmdb_ci_email_server,Online,Operational,Office Park,Installed,collab.team,collab.team,2026-07-12 02:00:00,Production
+ci009,DC-LB-001,cmdb_ci_load_balancer,Online,Operational,London DC,Installed,net.team,net.team,2026-07-12 02:00:00,Production
+ci010,CLD-S3-PROD,cmdb_ci_cloud_service,Online,Operational,AWS EU-West,Installed,cloud.team,cloud.team,2026-07-12 02:00:00,Production
+ci011,DC-APP-002,cmdb_ci_server,Online,Operational,London DC,Installed,john.admin,app.team,2026-07-12 02:00:00,Production
+ci012,DC-MON-001,cmdb_ci_server,Online,Non-Operational,London DC,Installed,mon.team,mon.team,2026-07-12 02:00:00,Monitoring
+ci013,CORP-FW-001,cmdb_ci_network_device,Offline,Operational,Corp Office,In Repair,sec.team,,2026-07-09 14:00:00,Production
+ci014,DR-DB-001,cmdb_ci_database,Online,Non-Operational,DR Site,Installed,dba.team,dba.team,2026-07-11 02:00:00,Disaster Recovery
+ci015,DC-ROUTER-001,cmdb_ci_router,Online,Operational,London DC,Installed,net.team,net.team,2026-07-12 02:00:00,Production

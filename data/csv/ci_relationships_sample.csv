@@ -1,0 +1,14 @@
+parent_sys_id,parent_name,child_sys_id,child_name,type,type_display
+ci001,DC-APP-001,ci002,DC-DB-001,cmdb_rel_uses,Depends on / Used by
+ci001,DC-APP-001,ci006,DC-STOR-001,cmdb_rel_uses,Depends on / Used by
+ci002,DC-DB-001,ci006,DC-STOR-001,cmdb_rel_uses,Depends on / Used by
+ci001,DC-APP-001,ci009,DC-LB-001,cmdb_rel_has,Has / Used by
+ci011,DC-APP-002,ci002,DC-DB-001,cmdb_rel_uses,Depends on / Used by
+ci011,DC-APP-002,ci006,DC-STOR-001,cmdb_rel_uses,Depends on / Used by
+ci008,OFF-EXCH-001,ci006,DC-STOR-001,cmdb_rel_uses,Depends on / Used by
+ci003,DC-SW-001,ci004,DC-FW-001,cmdb_rel_connected_to,Connected to / Connected from
+ci003,DC-SW-001,ci015,DC-ROUTER-001,cmdb_rel_connected_to,Connected to / Connected from
+ci015,DC-ROUTER-001,ci004,DC-FW-001,cmdb_rel_connected_to,Connected to / Connected from
+ci009,DC-LB-001,ci001,DC-APP-001,cmdb_rel_runs_on,Runs on / Runs
+ci009,DC-LB-001,ci011,DC-APP-002,cmdb_rel_runs_on,Runs on / Runs
+ci010,CLD-S3-PROD,ci009,DC-LB-001,cmdb_rel_uses,Depends on / Used by
