@@ -1,6 +1,6 @@
 # ServiceNow CMDB & Asset Management API
 
-> REST API integration scripts for ServiceNow CMDB and Asset Management — dev instance `dev432519.service-now.com`
+> REST API integration scripts for ServiceNow CMDB and Asset Management — dev instance `dev4XXXXX.service-now.com`
 
 ## Overview
 
@@ -9,7 +9,7 @@
 ## Prerequisites
 
 - Python 3.10+
-- ServiceNow developer instance (dev432519.service-now.com)
+- ServiceNow developer instance (dev4XXXXX.service-now.com)
 - OAuth 2.0 credentials (client ID, client secret, username, password)
 
 ## Setup
@@ -41,7 +41,7 @@ cp .env.example .env   # fill in your credentials
 
 ```mermaid
 graph LR
-    Script[Python Script] -->|OAuth 2.0| SN[dev432519.service-now.com]
+    Script[Python Script] -->|OAuth 2.0| SN[dev4XXXXX.service-now.com]
     SN -->|Table API| Script
     Script -->|CSV| CSV[data/csv/]
     Script -->|HTML| HTML[data/html/]
@@ -52,7 +52,7 @@ graph LR
 All scripts load credentials from `.env`:
 
 ```python
-SN_INSTANCE_URL = https://dev432519.service-now.com
+SN_INSTANCE_URL = https://dev4XXXXX.service-now.com
 SN_CLIENT_ID = your_client_id
 SN_CLIENT_SECRET = your_client_secret
 SN_USERNAME = your_username

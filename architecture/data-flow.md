@@ -2,7 +2,7 @@
 
 ```mermaid
 graph LR
-    User[User / Discovery] -->|CI Data| SN[ServiceNow dev432519]
+    User[User / Discovery] -->|CI Data| SN[ServiceNow dev4XXXXX]
     SN -->|REST API| Script1[01_query_ci.py]
     Script1 -->|CI List| Script2[02_relationships.py]
     Script2 -->|Relationship Map| Script3[03_health_check.py]
